@@ -200,7 +200,7 @@ namespace GexLauncher
         static void Main(string[] args)
 		{
             
-            const uint NORMAL_PRIORITY_CLASS = 0x0020;
+            /*const uint NORMAL_PRIORITY_CLASS = 0x0020;
             const uint IDLE_PRIORITY_CLASS = 0x0040;
             const uint CREATE_SUSPENDED = 0x4;
 
@@ -226,9 +226,9 @@ namespace GexLauncher
 
             InjectDll(DLLPath, pInfo);
 
-            ResumeThread(pInfo.hThread);
+            ResumeThread(pInfo.hThread);*/
             
-            /*const uint NORMAL_PRIORITY_CLASS = 0x0020;
+            const uint NORMAL_PRIORITY_CLASS = 0x0020;
             const uint IDLE_PRIORITY_CLASS = 0x0040;
             const uint CREATE_SUSPENDED = 0x4;
 
@@ -254,7 +254,7 @@ namespace GexLauncher
 
             InjectDll(DLLPath, pInfo);
 
-            ResumeThread(pInfo.hThread);*/
+            ResumeThread(pInfo.hThread);
         }
 	}
 }
