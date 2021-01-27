@@ -4,14 +4,12 @@ GexMod is a set of modifications for Gex (PC)
 
 Features include:
 
-	- XInput Controller Support
-	- Open Level Select with '`'
-	- Speed up game by holding '+'
+- XInput Controller Support
+- Open Level Select with ***`***
+- Speed up game by holding ***+***
 
 Usage:
 
-Download the latest release.
-
-Copy contents into Gex directory.
-
-Run GexLoader.exe as administrator.
+1. Download the latest release.
+2. Copy contents into Gex directory.
+3. Run GexLoader.exe as administrator.
